@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "PORT=5000 marp --server --theme-set ./themes --watch ./"
+  },
+	"devDependencies": {
+		"@marp-team/marp-cli": "^4.2.3"
+	}
+}
