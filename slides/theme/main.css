@@ -1,8 +1,10 @@
 /* @theme main */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @import "default";
 
+
 section {
+  font-family: "Noto Sans JP", sans-serif;
   align-content: start;
 }
 
@@ -14,4 +16,14 @@ section.lead {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+img[alt~='center'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[alt~='vcenter'] {
+  vertical-align: middle;
 }
